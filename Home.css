@@ -29,6 +29,7 @@ p{
     color: #B59B6E;
 }
 #Pages{
+    z-index: 10;
     list-style-type: none;
 }
 @keyframes AboutMeAnim {
