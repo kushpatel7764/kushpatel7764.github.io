@@ -17,7 +17,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: top;
-    scroll-snap-align: end;
+    scroll-snap-align: start;
 }
 h3{
     font-size: 15px;
