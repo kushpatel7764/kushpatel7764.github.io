@@ -8,15 +8,15 @@ body, html {
     z-index: 0;
     font-family: sans-serif, Arial, Helvetica;
     color: #ede3bc;
-    scroll-snap-type: y mandatory;
     overflow-y: scroll;
+    scroll-snap-type: y mandatory;
     height: 100vh;
 }
 
 section{
-    height: 100vh;
     display: flex;
     align-items: top;
+    overflow-y: hidden;
     scroll-snap-align: start;
 }
 h3{
@@ -87,10 +87,13 @@ p{
     top: 100px;
     }
     #slide1{
-        height: 80vh;
+        height: 100%;
     }
     #slide2{
-        height: 200vh;
+        height: 250%;
+    }
+    #slide3{
+        height: 100%;
     }
     #Pages{
         right: 6%;                   
@@ -134,10 +137,13 @@ p{
     
     }
     #slide1{
-        height: 75vh;
+        height: 100%;
     }
     #slide2{
-        height: 150vh;
+        height: 200%;
+    }
+    #slide3{
+        height: 100%;
     }
     #Pages{
         position: fixed;
@@ -151,10 +157,13 @@ p{
     top: 180px;
     }
     #slide1{
-        height: 70vh;
+        height: 100%;
     }
     #slide2{
-        height: 125vh;
+        height: 150%;
+    }
+    #slide3{
+        height: 100%;
     }
 
     #Pages{
