@@ -11,6 +11,7 @@ body, html {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     height: 100vh;
+    height: 100vw;
 }
 
 section{
@@ -32,54 +33,6 @@ p{
     z-index: 10;
     list-style-type: none;
 }
-@keyframes AboutMeAnim {
-    from {position: fixed;
-        opacity: 0;
-        top:4%;
-        left:85%;
-        }
-    to{position: fixed;
-        opacity: 100;
-        top:5%;
-        left: 5%;
-    }
-}
-@keyframes ResumeAnim {
-    from {position: fixed;
-        opacity: 0;
-        top:6%;
-        left:85%;
-        }
-    to{position: fixed;
-        opacity: 100;
-        top:5%;
-        left: 32%;
-    }
-}
-@keyframes HobbiesAnim {
-    from {position: fixed;
-        opacity: 0;
-        top:10%;
-        left:85%;
-        }
-    to{position: fixed;
-        opacity: 100;
-        top:5%;
-        left: 57%;
-    }
-}
-@keyframes WorkAnim {
-    from {position: fixed;
-        opacity: 0;
-        top:12%;
-        left:85%;
-        }
-    to{position: fixed;
-        opacity: 100;
-        top:5%;
-        left: 85%;
-    }
-}
 
 @media only screen and (max-width: 720px){
     #container{
@@ -95,40 +48,7 @@ p{
     #slide3{
         height: 100%;
     }
-    #Pages{
-        right: 6%;                   
-    }
-    #AboutMe{
-        animation-name: AboutMeAnim;
-        animation-duration: 2s;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-        
-        /* transform: translate(-450px, 0px); */
-    }
-    #Resume{
-        animation-name: ResumeAnim;
-        animation-duration: 2s;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-        
-        /* transform: translate(-300px, -18px); */
-    }
-    #Hobbies{
-        animation-name: HobbiesAnim;
-        animation-duration: 2s;
-        animation-direction:normal;
-        animation-fill-mode: forwards;
-        
-        /* transform: translate(-150px, -36px); */
-    }
-    #Work{
-        animation-name: WorkAnim;
-        animation-duration: 2s;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-        /* transform: translate(0px, -52px); */
-    }
+    
 }
 @media only screen and (min-width:721px) and (max-width:960px) {
     #container {
@@ -145,11 +65,7 @@ p{
     #slide3{
         height: 100%;
     }
-    #Pages{
-        position: fixed;
-        top: 1%;
-        right: 5.5%;
-    }
+   
 }
 @media only screen and (min-width:961px){
     #container {
@@ -166,9 +82,5 @@ p{
         height: 100%;
     }
 
-    #Pages{
-        position: fixed;
-        top: 4%;
-        right: 5%;
-    }
+   
 }
