@@ -10,6 +10,7 @@ body, html {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     height: fit-content;
+    width: fit-content;
 }
 #slide1 h1{
     margin-top: 20px;
@@ -34,6 +35,8 @@ body, html {
 
 
 section{
+
+    height: fit-content;
     align-items: top;
     overflow-y: scroll;
     scroll-snap-align: start;
