@@ -1,38 +1,41 @@
+<!--Design by: RAM MAHESHWARI-->
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 10;
-            padding: 0;
-            background-color: #e3f6f5;
-        }
-        img{
-            float: left;
-            margin-right: 20px;
-        }
-    </style>
+    <title>Index</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <header>
+         <!-- TOPBAR HTML-->
+        <div id="topnavBackground">
+    
+        <nav id="topnav"> 
+            <link rel="stylesheet" href="topbar.css">
+            <img id="photo" src="Images/KushPatel1.jpeg" alt="Kush Patel sitting on a rock at the White Mountain in New Hempshire">
+            <button id="name"><p>KUSH PATEL</p></button>
+            <button id="navButton"><a href="index.html">HOME</a></button>
+            <button id="navButton"><a href="project.html">PROJECTS</a></button>
+            <button id="navButton"><a>ABOUT</a></button>
+            <button id="navButton"><a href="contact.html">CONTACT</a></button>
+        </nav>
+        </div>
+        <!-------------->
+    </header>    
 </head>
 <body>
-    <h1>Kush Patel</h1>
-    
-    <img src="Images/KushPatel1.jpeg" alt="Kush Patel sitting on a rock at the White Mountain in New Hempshire" width="175" height="250">
-    
-    <p> 
+    <section>
+    <h1>HEY, I'M KUSH PATEL</h1>
+    <p id="simpleInfoSec">  
         I am a computer science major at Bridgewater State University. I am from Fairhaven, Massachusetts. Some programing languages that I know and can work with are
         Kotlin, C#, Java, Python, C, and Swift. I have also taken a linux admin course and so I am able to work with linux systems as well. Currently I 
         am taking an web development course to learn more about Node.js and Rect. 
     </p>
-    <h4>Contact</h4>
-    <P>
-        Email: k6patel@student.bridgew.edu
-    </P>
-    <p>
-        Instagram: <a href="https://www.instagram.com/kushpatelrp123/">instagram.com/kushpatelrp123</a>
+    <button id="bigButtonToProj">PROJECTS></button>
+    <p id="designby">
+        Design By: RAM MAHESHWARI
     </p>
-    <a href="Project.html">Portfolio Project Page</a>
+    </section>
 </body>
 </html>

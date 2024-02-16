@@ -1,0 +1,49 @@
+body {
+    font-family:"Helvetica", Arial;
+    margin: 0;
+    padding: 0;
+}
+
+#topnavBackground{
+    height: 15vh;
+    box-shadow: 0px 0.5px 5px gray;
+    background-color: white;
+}
+#topnavBackground > #topnav{
+    position:relative;
+    top: 5vh;
+    right: 5vw;
+    float: right;
+}
+#topnav button{
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    transition-duration: 0.3s;
+    top: -2vh;
+}
+#name{
+    position: relative;
+    font-weight: bold;
+    left: -28vw;
+    transition: 0.3s;
+}
+#name:hover{
+    color: purple;
+}
+#photo{
+    border-radius: 50%;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: -28vw;
+}
+#navButton:hover{ 
+    border-color: black;
+}
+#topnav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
