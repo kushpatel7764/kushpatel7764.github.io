@@ -34,7 +34,28 @@ h1{
     opacity: 100%;
 }
 #designby{
-    position: relative;
-    top: 44vh;
-    left: -30vw;
+    position: absolute;
+    bottom: 0%;
+    left: 2%
+}
+
+
+@media only screen and (max-width: 720px){
+    #bigButtonToProj{   
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: relative;
+        top: 15vh;
+        text-decoration: none;
+        font-size:medium;
+        color: white;
+        border-radius: 0.75vh;
+        background-color: purple;
+        box-shadow: 2px 1px 2px;
+        opacity: 90%;
+        transition: 0.5s;
+    }
+    
 }

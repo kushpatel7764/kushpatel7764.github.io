@@ -1,66 +1,60 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #1f2220;
+    background-color: rgb(240, 240, 240);
 }
 
-#container{
-    z-index: 0;
-    font-family: sans-serif, Arial, Helvetica;
-    color: #ede3bc;
+.container{
+    font-family: Helvetica, Arial;
+    color: black;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    height: 100vh;
-    height: 100vw;
+    height: 300vh;
+}
+#slide1 h1{
+    position: relative;
+    left: 35%;
+}
+#underline{
+    background-color: purple;
+    position: relative;
+    top: 25%;
+    left: 45%;
+    height: 8px;
+    width: 50px;
+    border-radius: 10%;
 }
 
+
 section{
-    display: flex;
     align-items: top;
-    overflow-y: hidden;
+    overflow-y: scroll;
     scroll-snap-align: start;
 }
 h3{
+    margin: 5px;
     font-size: 15px;
     font-weight: bold;
-    color: #B1A089;
+    color: black;
 }
 p{
-    font-size: small;
-    color: #B59B6E;
-}
-#Pages{
-    z-index: 10;
-    list-style-type: none;
+    margin: 5px;
 }
 
 @media only screen and (max-width: 720px){
-    #container{
-    position: relative;
-    top: 100px;
-    }
+
     #slide1{
-        height: 100%;
-    }
-    #slide2{
-        height: 250%;
+        height: 200vh;
     }
     #slide3{
-        height: 100%;
+        height: 100vh;
     }
     
 }
 @media only screen and (min-width:721px) and (max-width:960px) {
-    #container {
-    position: relative;
-    top: 120px;
-    
-    }
+ 
     #slide1{
-        height: 100%;
-    }
-    #slide2{
-        height: 200%;
+        height: 150%;
     }
     #slide3{
         height: 100%;
@@ -68,15 +62,9 @@ p{
    
 }
 @media only screen and (min-width:961px){
-    #container {
-    position: relative;
-    top: 180px;
-    }
+
     #slide1{
-        height: 100%;
-    }
-    #slide2{
-        height: 150%;
+        height: 125%;
     }
     #slide3{
         height: 100%;

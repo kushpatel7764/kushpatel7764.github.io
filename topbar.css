@@ -5,45 +5,110 @@ body {
 }
 
 #topnavBackground{
-    height: 15vh;
+    height: 105px;
     box-shadow: 0px 0.5px 5px gray;
     background-color: white;
 }
-#topnavBackground > #topnav{
-    position:relative;
-    top: 5vh;
-    right: 5vw;
-    float: right;
-}
+
 #topnav button{
     position: relative;
     background-color: transparent;
     border-color: transparent;
     transition-duration: 0.3s;
-    top: -2vh;
 }
-#name{
-    position: relative;
-    font-weight: bold;
-    left: -28vw;
-    transition: 0.3s;
+#topnavBackground > #topnav{
+    top: 35%;
 }
+
 #name:hover{
     color: purple;
 }
-#photo{
-    border-radius: 50%;
-    position: relative;
-    height: 40px;
-    width: 40px;
-    position: relative;
-    left: -28vw;
-}
+
 #navButton:hover{ 
-    border-color: black;
+    border-color: purple;
 }
 #topnav a {
     color: black;
     font-weight: bold;
     text-decoration: none;
+}
+@media only screen  and (max-width: 620px) {
+    #photo{
+        display: none;
+    }
+    #name{
+        display: none;
+    }
+    #topnavBackground > #topnav{
+        position:relative;
+        text-align: center;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (min-width: 621px) and (max-width: 720px){
+    #photo{
+        display: none;
+    }
+    #name{
+        position: relative;
+        left: -20vw;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    #topnavBackground > #topnav{
+        position:relative;
+        right: 5vw;
+        float: right;
+    }
+
+}
+@media only screen and (min-width:721px) and (max-width:960px) {
+    #photo{
+        border-radius: 50%;
+        position: relative;
+        height: 45px;
+        width: 45px;
+        left: -20vw;
+        top: -0.5vh;
+        transition: 0.3s;
+    }
+    #name{
+        position: relative;
+        left: -20vw;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    #topnavBackground > #topnav{
+        position:relative;
+        right: 5vw;
+        float: right;
+    }
+  
+}
+@media only screen and (min-width:961px){
+    #name{
+        position: relative;
+        left: -38vw;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+    #photo{
+        border-radius: 50%;
+        position: relative;
+        height: 50px;
+        width: 50px;
+        left: -38vw;
+        top: -1vh;
+        transition: 0.2s;
+    }
+
+    #topnavBackground > #topnav{
+        position:relative;
+        right: 5vw;
+        float: right;
+    }
+   
 }
