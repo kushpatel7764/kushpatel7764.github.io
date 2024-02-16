@@ -1,7 +1,7 @@
 window.addEventListener("load", function(event) {
-    document.getElementById("bigButtonToProj").addEventListener("click",foo);
+    document.getElementById("bigButtonToProj").addEventListener("click", goToProj);
 });
 
-function foo(){
-    alert("Hello")
+function goToProj(){
+    window.location.href="project.html"
 }
