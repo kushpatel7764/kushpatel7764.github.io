@@ -3,5 +3,5 @@ window.addEventListener("load", function(event) {
 });
 
 function goToProj(){
-    window.location.href="project.html"
+    window.location.href="/project.html"
 }
