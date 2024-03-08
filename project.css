@@ -20,10 +20,11 @@ body, html {
 #underline{
     background-color: purple;
     position: relative;
-    left: 46.425%;
     height: 10px;
     width: 50px;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
     border-radius: 13%;
 }
 
